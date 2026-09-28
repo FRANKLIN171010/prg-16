@@ -8,7 +8,12 @@ import Contact from "./Contact";
 function App() {
   return (
     <BrowserRouter>
+    <header>
+      <h1>My React Website</h1>
+      <nav>
       <Navigation />
+      </nav>
+      </header>
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -20,3 +25,4 @@ function App() {
 }
 
 export default App;
+
